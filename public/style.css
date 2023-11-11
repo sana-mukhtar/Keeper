@@ -19,17 +19,26 @@ body{
 }
 
 .Note{
-    color: rgb(48, 48, 48);
-    display: inline-block;
-    background-color: #fff;
-    font-weight: 170;
-    margin: 12px;
-    padding: 7px;
-    border-radius: 5px ;
-    border: 2px ;
-    box-shadow: 3px 3px rgb(226, 224, 224);
+        background: #fff;
+        border-radius: 7px;
+        box-shadow: 0 2px 5px #ccc;
+        padding: 10px;
+        width: 240px;
+        margin: 16px;
+        float: left;
+      
 }
 
+.Note h4 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+  }
+  .Note p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
 
 
 .footer{

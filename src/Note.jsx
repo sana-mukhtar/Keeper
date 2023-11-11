@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Note(){
+function Note(props){
     return (
         <div className='Note'>
-        <h4 contentEditable="true" spellCheck="false">Note Title</h4>
-        <p contentEditable="true" spellCheck="true"> This is a Note Content</p>
+        <h4  spellCheck="false">{props.title}</h4>
+        <p  spellCheck="true"> {props.content}</p>
         </div>
        )
 }
