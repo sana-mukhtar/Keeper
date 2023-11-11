@@ -4,7 +4,6 @@ import Footer from "./Footer";
 import Note from "./Note";
 import Notes from "./Notes";
 
-console.log(Notes)
 
 function createNote(items){
     return <Note
