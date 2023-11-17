@@ -18,6 +18,11 @@ const Notes = [
         key : 4, 
         title : "css word wrap" , 
         content : " Allow long words to be able to break and wrap onto the next line:"
+    },
+    {
+        key : 5, 
+        title : "css word wrap" , 
+        content : " Allow long words to be able to break and wrap onto the next line:"
     }
 ]
 
